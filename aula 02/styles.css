@@ -244,8 +244,54 @@ body {
     margin-top: 50px;
 }
 
-.rodape-linha {
-    height: 5px;
+.rodape-linha{
+    margin-top: 0px;
+    height: 1px;
     width: 100%;
     background-color: #FFFFFF;
+}
+
+.rodape-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 50x 0px;
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBC154;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    fill: #FFFFFF;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.icone svg{
+    width: 50px;
+    height: 50px;
+}
+
+
+.grupo-login{
+    display: flex;
+}
+
+.lado-esquerdo {
+    height: 832px;
+    width: 40%;
+    background-size: cover;
+    background-image: url('./Imagens/dog_preto.jpg');
+    text-align: center;
+}
+
+.lado-esquerdo p{
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    margin-top: 50px;
 }
