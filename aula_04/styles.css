@@ -1,7 +1,28 @@
 body {
     text-align: center;
+    background-color: plum;
 }
 
 li {
-    text-decoration: none;
+   list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+#campo {
+    background-color: aquamarine;
+}
+
+.titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    align-items: center;
+}
+
+.btn_add {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    border-color: aquamarine;
+    border-width: 5px;
+    background-color: aliceblue;
 }

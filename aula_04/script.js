@@ -12,17 +12,19 @@ function add() {
     //"value" para o nosso elemento li
     li.innerHTML = campo.value;
 
-    //botão apagar
     var btn = document.createElement('button');
-    btn.innerHTML= "Apagar"
-    btn.addEventListener('click', apagarElemento());
-
+    btn.innerHTML = "🗑️";
+    btn.addEventListener('click', function () {
+        lista.removeChild(this.parentNode)
+    });
 
     //aplicando o elemento li dentro do elemento ul
+    li.appendChild(btn);
+
+    // aplicamos elemento li dentro do elemento ul
     lista.appendChild(li);
 
     //limpamos a propriedade value do nosso elemento campo
     campo.value = "";
 }
-function apagarElemento(elemento);
-document.removeChild(elemento);
+
