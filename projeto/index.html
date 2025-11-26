@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <title>📖 Agenda do Estudante💜</title>
+    <title>📖 Agenda do Estudante </title>
 </head>
 
 <body>
@@ -13,24 +13,22 @@
         <p>📖 Agenda Semanal do Estudante ✏️</p>
     </div>
 
-
-    <button id="addLinha">Adicionar Tarefa</button>
+    <button id="addLinha" onclick="adicionar()">Adicionar Tarefa</button>
 
     <div>
         <table class="table" id="tabelaAgenda">
             <tr>
-                <th></th>
+                <th>Excluir</th>
                 <th>Horário</th>
                 <th>Dia da Semana</th>
                 <th>Tarefa</th>
             </tr>
+
             <tr>
-                <td>
-                    <button class="btnExcluir">❌</button>
-                </td>
-                <td>
-                    <input type="time" class="time">
-                </td>
+                <td><button class="btnExcluir">❌</button></td>
+
+                <td><input type="time" class="time"></td>
+
                 <td>
                     <select>
                         <option>Segunda-feira</option>
@@ -40,10 +38,10 @@
                         <option>Sexta-feira</option>
                     </select>
                 </td>
-                <td>
-                    <input type="text" placeholder="Descreva a tarefa" class="tarefa">
-                </td>
+
+                <td><input type="text" placeholder="Descreva a tarefa" class="tarefa"></td>
             </tr>
+
         </table>
     </div>
 

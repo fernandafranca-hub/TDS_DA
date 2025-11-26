@@ -1,46 +1,52 @@
 body {
     background-image: url(./240_F_281962863_P2Dc2wTzrn32vm3Wg21hoEAywghxVuDk.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;  
-    height: 100%;             
-   
+    background-repeat: no-repeat;    
+    height: 1080px;
+    align-items: center;
+    display: flex;       
+    align-items: center;     
+    flex-direction: column; 
+    justify-content: start;  
+}
 
 .inicio {
+    align-items: center;
+    justify-content: center;    
     border: 2px solid #5c44e4;
     border-radius: 98px;
-    background-color: #87CEEB
+    background-color: #87CEEB;
     height: 50px;
-    width: 290px;
-    padding: 2px 10px;
+    width: 390px;
     margin-top: 30px;
-    margin-bottom: 10px;
-    font-size: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: black;
     text-align: center;
+    display: flex;
 }
 
-.th {
+th {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+td,
+th {
     border: 2px solid #5c44e4;
     border-radius: 90px;
-    background-color: #87CEEB    
+    background-color: #87CEEB;
     height: 50px;
-    padding: 2px 10px 2px 10px;
-}
-
-td {
-    border: 2px solid #5c44e4;
-    border-radius: 90px;
-    background-color: #87CEEB   
-    height: 50px;    
     padding: 5px;
     text-align: center;
+    height: 50px;
+    width: 150px;
 }
 
 #addLinha {
-border: 2px solid #5c44e4;
+    border: 2px solid #5c44e4;
     border-radius: 98px;
     height: 50px;
     width: 190px;
@@ -49,11 +55,17 @@ border: 2px solid #5c44e4;
     color: black;
     background-color: #87CEEB;
     cursor: pointer;
-    margin: 50px auto;
     display: block;
+    margin: 10px 10px 10px 470px;
 }
 
-#tabelaAgenda button{
+#tabelaAgenda th {
+    background-color: #87CEEB;
+}
+
+#tabelaAgenda button {
+    border: 2px solid #5c44e4;
+    border-radius: 20px;
     background-color: #87CEEB;
     width: 100%;
     height: 100%;
@@ -62,13 +74,15 @@ border: 2px solid #5c44e4;
     cursor: pointer;
 }
 
-#tabelaAgenda input {
+#tabelaAgenda input,
+select {
     text-align: center;
     width: 100%;
     height: 100%;
     border-radius: 20px;
     border: none;
     background-color: transparent;
+    outline: none;
 }
 
 .btnExcluir {
@@ -76,4 +90,3 @@ border: 2px solid #5c44e4;
     height: 40px;
     font-size: 18px;
 }
-

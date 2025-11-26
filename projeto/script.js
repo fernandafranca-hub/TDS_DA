@@ -1,11 +1,4 @@
 const tabela = document.getElementById("tabelaAgenda");
-const botaoAdd = document.getElementById("addLinha");
-
-botaoAdd.addEventListener("click", () => {
-    const linha = document.createElement("tr");
-
-    tabela.appendChild(linha);
-});
 
 document.addEventListener("click", e => {
     if (e.target.classList.contains("btnExcluir")) {
@@ -14,3 +7,28 @@ document.addEventListener("click", e => {
 });
 
 
+function adicionar() {
+    const tr = document.createElement("tr");
+
+
+    tr.innerHTML = `<tr>
+        <td><button class="btnExcluir">❌</button></td>
+
+        <td><input type="time" class="time"></td>
+
+        <td>
+            <select>
+                <option>Segunda-feira</option>
+                <option>Terça-feira</option>
+                <option>Quarta-feira</option>
+                <option>Quinta-feira</option>
+                <option>Sexta-feira</option>
+            </select>
+        </td>
+
+        <td><input type="text" placeholder="Descreva a tarefa" class="tarefa"></td>
+    </tr>`;
+
+
+    tabela.appendChild(tr);
+}
