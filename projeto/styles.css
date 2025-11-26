@@ -1,66 +1,60 @@
 body {
-    background-image: url(./desenho-e-padrao-floral-textil_1085731-463.avif);
+    background-image: url(./240_F_281962863_P2Dc2wTzrn32vm3Wg21hoEAywghxVuDk.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;  
     height: 100%;             
-}
+   
 
-.p {
-    font-size: 25px;
+.inicio {
+    border: 2px solid #5c44e4;
+    border-radius: 98px;
+    background-color: #87CEEB
+    height: 50px;
+    width: 290px;
+    padding: 2px 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blueviolet;
+    font-weight: bolder;
+    color: black;
     text-align: center;
 }
 
-
-.inicio {
-    border: 2px solid #f896bf;
-    border-radius: 98px;
-    background-color: rgb(252, 225, 243);
-    color: black;
-    font-weight: bolder;
-    height: 50px;
-    width: 290px;
-    padding: 2px 10px 2px 10px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
 .th {
-    border: 2px solid #f896bf;
+    border: 2px solid #5c44e4;
     border-radius: 90px;
-    background-color: rgb(252, 225, 243);
-    color: black;
+    background-color: #87CEEB    
     height: 50px;
-    width: 290px;
     padding: 2px 10px 2px 10px;
 }
 
 td {
-    border: 2px solid #f896bf;
+    border: 2px solid #5c44e4;
     border-radius: 90px;
-    background-color: rgb(252, 225, 243);
-    color: black;
-    height: 50px;
-    width: 290px;
-    padding: 2px 10px 2px 10px;
+    background-color: #87CEEB   
+    height: 50px;    
+    padding: 5px;
+    text-align: center;
 }
 
 #addLinha {
-    border: 2px solid #f896bf;
-    border-radius: 90px;
-    background-color: rgb(252, 225, 243);
-    color: black;
+border: 2px solid #5c44e4;
+    border-radius: 98px;
     height: 50px;
-    width: 100px;
-    padding: 2px 10px 2px 10px;
+    width: 190px;
+    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 10px 10px 10px 850px;
+    color: black;
+    background-color: #87CEEB;
+    cursor: pointer;
+    margin: 50px auto;
+    display: block;
 }
 
 #tabelaAgenda button{
-    background-color: transparent;
+    background-color: #87CEEB;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -68,26 +62,18 @@ td {
     cursor: pointer;
 }
 
-#tabelaAgenda input{
+#tabelaAgenda input {
     text-align: center;
     width: 100%;
     height: 100%;
     border-radius: 20px;
     border: none;
     background-color: transparent;
-    
 }
-
 
 .btnExcluir {
     width: 25px;
     height: 40px;
+    font-size: 18px;
 }
 
-
-.tarefa {
-
-}
-.time {
-
-}
